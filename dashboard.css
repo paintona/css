@@ -27,7 +27,7 @@ body {
     z-index: 100!important; /* Behind the navbar */
     padding: 48px 0 0!important; /* Height of navbar */
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1)!important;
-    overflow-y: auto!important; 
+    overflow-y: scroll!important; 
     overflow-x: auto!important; 
   }
   
@@ -42,7 +42,7 @@ body {
     top: 0!important;
     height: calc(100vh - 48px)!important;
     padding-top: .5rem!important;
-    overflow-x: auto!important;
+    overflow-x: hidden!important;
     overflow-y: auto!important; /* Scrollable contents if viewport is shorter than content. */
   }
   

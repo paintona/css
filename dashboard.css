@@ -43,7 +43,7 @@ body {
     height: calc(100vh - 48px)!important;
     padding-top: .5rem!important;
     overflow-x: hidden!important;
-    overflow-y: auto!important; /* Scrollable contents if viewport is shorter than content. */
+    overflow-y: scroll!important; /* Scrollable contents if viewport is shorter than content. */
   }
   
   .sidebar .nav-link {
